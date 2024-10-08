@@ -1,6 +1,7 @@
 import  { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addPost } from '../reducers/actions/postActions';
+import '../styles/componentos/AddPost.sass'
 
 const AddPost = () => {
   const [title, setTitle] = useState('');
