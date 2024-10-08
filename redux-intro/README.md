@@ -1,35 +1,128 @@
-Red Social - README
-Descripción del Proyecto
-Este proyecto es una red social básica desarrollada con React, donde los usuarios pueden registrarse, iniciar sesión, crear publicaciones, interactuar con otros usuarios, y gestionar su perfil. El diseño está optimizado para una experiencia de usuario fluida y se implementan buenas prácticas de desarrollo como el uso de Redux para la gestión de estado y SASS para los estilos.
+# 🌐 Red Social
 
-Funcionalidades
-Registro de usuarios: Permite a los nuevos usuarios crear una cuenta.
-Login de usuarios: Los usuarios pueden iniciar sesión y acceder a sus datos.
-Visualización de publicaciones: Todos los usuarios pueden ver publicaciones en el feed.
-Crear, editar y eliminar publicaciones: Los usuarios logeados pueden gestionar sus propios posts.
-Dar/quitar Like: Los usuarios pueden dar y quitar "Me gusta" a las publicaciones.
-Buscar: Los usuarios pueden buscar otros perfiles o publicaciones.
-Perfil: Visualización y edición del perfil del usuario, junto con sus publicaciones.
-Comentarios: Los usuarios pueden comentar en publicaciones.
-Estructura del Proyecto
-Componentes Principales:
-Register: Formulario de registro.
-Login: Formulario de inicio de sesión.
-Home: Pantalla principal donde se ven todas las publicaciones.
-Posts: Lista de publicaciones.
-Post: Componente para una publicación individual.
-AddPost: Formulario para crear nuevas publicaciones.
-PostDetail: Vista de detalle de un post con comentarios.
-AddComment: Añadir comentarios a una publicación.
-Profile: Visualización del perfil y posts del usuario.
-Header y Footer: Componentes comunes para navegación y pie de página.
-Rutas
-/home: Pantalla principal con el feed.
-/login: Pantalla de inicio de sesión.
-/register: Registro de usuario.
-/profile: Vista de perfil del usuario logeado.
-Tecnologías Utilizadas:
-React con React Router para la navegación.
-Redux para la gestión de estado.
-SASS para los estilos.
-Git: Control de versiones, con dos ramas principales main y develop.
+## 📖 Descripción del Proyecto
+
+Este proyecto es una red social básica desarrollada con **React**, donde los usuarios pueden:
+
+- **Registrarse** e **iniciar sesión**.
+- **Crear**, **editar** y **eliminar** publicaciones.
+- **Dar** y **quitar "Me gusta"** a publicaciones.
+- **Comentar** en publicaciones.
+- **Buscar** otros perfiles y publicaciones.
+- **Gestionar** su perfil y publicaciones personales.
+
+El proyecto utiliza **Redux** para la gestión global del estado y **SASS** para los estilos, enfocándose en una experiencia de usuario fluida.
+
+## 🚀 Funcionalidades
+
+- **Registro de usuarios**: Permite a los nuevos usuarios crear una cuenta.
+- **Login de usuarios**: Los usuarios pueden iniciar sesión y acceder a su perfil.
+- **Visualización de publicaciones**: Muestra las publicaciones en la página principal.
+- **Gestión de publicaciones**: Los usuarios pueden crear, editar y eliminar sus publicaciones.
+- **Interacciones**: Dar y quitar "Me gusta" a las publicaciones y comentar.
+- **Búsqueda**: Los usuarios pueden buscar perfiles y publicaciones.
+- **Perfil de usuario**: Visualización y edición de datos del usuario, junto con sus publicaciones.
+
+## 📁 Estructura del Proyecto
+
+### Componentes Principales
+
+- **Register**: Formulario de registro de usuario.
+- **Login**: Formulario de inicio de sesión.
+- **Home**: Página principal que muestra todas las publicaciones.
+- **Posts**: Lista de todas las publicaciones.
+- **Post**: Componente para una publicación individual.
+- **AddPost**: Formulario para añadir nuevas publicaciones.
+- **PostDetail**: Vista detallada de una publicación con comentarios.
+- **AddComment**: Formulario para añadir comentarios.
+- **Profile**: Vista del perfil del usuario con sus publicaciones.
+- **Header** y **Footer**: Navegación y pie de página.
+
+### Rutas
+
+| Ruta       | Descripción                                    |
+|------------|------------------------------------------------|
+| `/home`    | Pantalla principal con el feed de publicaciones |
+| `/login`   | Pantalla de inicio de sesión                   |
+| `/register`| Registro de usuario                            |
+| `/profile` | Vista del perfil del usuario logeado           |
+
+## 🛠️ Tecnologías Utilizadas
+
+- **React** con **React Router** para la navegación.
+- **Redux** para la gestión del estado.
+- **SASS** para estilos.
+- **Git** para control de versiones, utilizando dos ramas: `main` y `develop`.
+
+## 📦 Instalación
+
+Para ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+
+   ```bash
+   # 🌐 Red Social
+
+## 📖 Descripción del Proyecto
+
+Este proyecto es una red social básica desarrollada con **React**, donde los usuarios pueden:
+
+- **Registrarse** e **iniciar sesión**.
+- **Crear**, **editar** y **eliminar** publicaciones.
+- **Dar** y **quitar "Me gusta"** a publicaciones.
+- **Comentar** en publicaciones.
+- **Buscar** otros perfiles y publicaciones.
+- **Gestionar** su perfil y publicaciones personales.
+
+El proyecto utiliza **Redux** para la gestión global del estado y **SASS** para los estilos, enfocándose en una experiencia de usuario fluida.
+
+## 🚀 Funcionalidades
+
+- **Registro de usuarios**: Permite a los nuevos usuarios crear una cuenta.
+- **Login de usuarios**: Los usuarios pueden iniciar sesión y acceder a su perfil.
+- **Visualización de publicaciones**: Muestra las publicaciones en la página principal.
+- **Gestión de publicaciones**: Los usuarios pueden crear, editar y eliminar sus publicaciones.
+- **Interacciones**: Dar y quitar "Me gusta" a las publicaciones y comentar.
+- **Búsqueda**: Los usuarios pueden buscar perfiles y publicaciones.
+- **Perfil de usuario**: Visualización y edición de datos del usuario, junto con sus publicaciones.
+
+## 📁 Estructura del Proyecto
+
+### Componentes Principales
+
+- **Register**: Formulario de registro de usuario.
+- **Login**: Formulario de inicio de sesión.
+- **Home**: Página principal que muestra todas las publicaciones.
+- **Posts**: Lista de todas las publicaciones.
+- **Post**: Componente para una publicación individual.
+- **AddPost**: Formulario para añadir nuevas publicaciones.
+- **PostDetail**: Vista detallada de una publicación con comentarios.
+- **AddComment**: Formulario para añadir comentarios.
+- **Profile**: Vista del perfil del usuario con sus publicaciones.
+- **Header** y **Footer**: Navegación y pie de página.
+
+### Rutas
+
+| Ruta       | Descripción                                    |
+|------------|------------------------------------------------|
+| `/home`    | Pantalla principal con el feed de publicaciones |
+| `/login`   | Pantalla de inicio de sesión                   |
+| `/register`| Registro de usuario                            |
+| `/profile` | Vista del perfil del usuario logeado           |
+
+## 🛠️ Tecnologías Utilizadas
+
+- **React** con **React Router** para la navegación.
+- **Redux** para la gestión del estado.
+- **SASS** para estilos.
+- **Git** para control de versiones, utilizando dos ramas: `main` y `develop`.
+
+## 📦 Instalación
+
+Para ejecutar el proyecto localmente, sigue estos pasos:
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/VictoriaPashkouskaya/frond-redukt
+
